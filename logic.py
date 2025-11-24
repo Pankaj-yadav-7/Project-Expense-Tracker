@@ -1,4 +1,3 @@
-# logic.py
 from expense import Expense
 import file_helper
 import inputs
@@ -70,4 +69,5 @@ def delete_entry():
         file_helper.save_to_file(my_expenses)
         print(f"Removed entry: {removed.description}")
     else:
+
         print("Invalid ID number.")
