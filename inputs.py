@@ -1,5 +1,3 @@
-# inputs.py
-
 def ask_for_number(message):
     # Keeps asking until the user gives a valid number
     while True:
