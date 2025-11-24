@@ -1,8 +1,7 @@
-# file_helper.py
 import json
 import os
 
-# The file where we store our data
+# The file where data is stored
 Data_file = "my_expenses.json"
 
 def save_to_file(expense_list):
